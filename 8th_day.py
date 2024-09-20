@@ -4,10 +4,17 @@
 
 # greet_with_name("Angela")
 
-def time_in_weeks(age):
-    time_left = 90 - age
-    time_in_weeks = time_left * 52
-    t_left = str(time_in_weeks)
-    print("You have " + t_left + " weeks left.")
+# def time_in_weeks(age):
+#     time_left = 90 - age
+#     time_in_weeks = time_left * 52
+#     t_left = str(time_in_weeks)
+#     print("You have " + t_left + " weeks left.")
 
-time_in_weeks(56)
+# time_in_weeks(56)
+
+def greet_with(name, location):
+    print(f"Hello {name} from {location}")    
+
+greet_with("Angela", "Romania")
+    
+greet_with(location = "Romania", name = "Angela")
